@@ -1,0 +1,160 @@
+{
+  "main": {
+    "id": "2108cb8acc45f14f",
+    "type": "split",
+    "children": [
+      {
+        "id": "cb778124f39b29e6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "192df8d57d68f859",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "index.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "9ab92c3ef7b0e0b6",
+    "type": "split",
+    "children": [
+      {
+        "id": "7f1c24a27b2f3234",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "be324d26552de8dd",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "f8fa03f08c2b029c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "be177aa7ecb568ac",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "d43dc437dc4146bc",
+    "type": "split",
+    "children": [
+      {
+        "id": "f77c616ad6badf04",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2cdbdb8c60adc03a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "index.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "8769ce04815cc1e4",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "index.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "03e657557cab4322",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "9460a194078a1b81",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "index.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "192df8d57d68f859",
+  "lastOpenFiles": [
+    "readme.md",
+    "assets/images/hyperstitionpfp.png",
+    "assets/images/Instagram Logo.png",
+    "index.md",
+    "graphviz-test.md",
+    "_daily/2022-02-04.md",
+    "business-virtue.md",
+    "_daily/2023-02-25.md"
+  ]
+}
