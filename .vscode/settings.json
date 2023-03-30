@@ -12,7 +12,12 @@
   },
   "files.defaultLanguage": "markdown",
   "files.exclude": {
-    "**/node_modules": true
+    ".gitignore": true,
+    ".jekyll-cache": true,
+    ".vscode": true,
+    "**/node_modules": true,
+    "Gemfile": true,
+    "Gemfile.lock": true
   },
   "files.watcherExclude": {
     "**/node_modules": true
@@ -20,11 +25,11 @@
   "foam.edit.linkReferenceDefinitions": "withoutExtensions",
   "foam.openDailyNote.directory": "_daily",
   "foam.openDailyNote.titleFormat": "mm-dd-yy",
-  "foam.openDailyNote.onStartup": true,
+  "foam.openDailyNote.onStartup": false,
   "git.enableSmartCommit": true,
   "git.postCommitCommand": "sync",
   "markdown.preview.breaks": true,
-  "pasteImage.path": "${projectRoot}/attachments",
+  "pasteImage.path": "${projectRoot}/images",
   "pasteImage.showFilePathConfirmInputBox": true,
   "prettier.singleQuote": false,
   "spellright.notificationClass": "warning",
@@ -38,4 +43,8 @@
   "pasteImage.forceUnixStyleSeparator": false,
   "pasteImage.prefix": "/",
   "jekyll-run.stopServerOnExit": false,
+  "gitdoc.autoPullDelay": 30000,
+  "gitdoc.autoPushDelay": 43200000,
+  "gitdoc.autoPush": "afterDelay",
+  "gitdoc.enabled": false,
 }

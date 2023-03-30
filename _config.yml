@@ -1,35 +1,66 @@
-title: Exocore
+##############################
+# --- USER CONFIGURATION --- #
+##############################
 
+title: HYPERSTITION
+description: HYPERSTITIONSTITIONSTITIONSTITIONSTITIONSTITION
+url: https://hyperstition.netlify.app
+repository: remiliacorp/exocore
+
+##############################################
+# --- ANALYTICS CONFIGURATION (OPTIONAL) --- #
+##############################################
+
+jekyll_analytics:        # Uncomment desired analytics tracker and input details
+#  GoogleAnalytics:          # Uncomment section if you want to track with Google Analytics
+#    id: UA-123-456          # Required - replace with your tracking id
+#    anonymizeIp: false      # Optional - Default: false - set to true for anonymized tracking
+
+#  Matomo:                   # Uncomment section if you want to track with Matomo (former Piwik Analytics)
+#    url: matomo.example.com # Required - url to Matomo installation without trailing /
+#    siteId: "1234"          # Required - replace with your Matomo site id (Write id as string)
+
+#  Piwik:                    # Uncomment section if you want to track with Piwik
+#    url: piwik.example.com  # Required - url to Piwik installation without trailing /
+#    siteId: "1234"          # Required - replace with your Piwik site id (Write id as string)
+
+#  MPulse:                   # Uncomment section if you want to track performance with mPulse
+#    apikey: XXXXX-YYYYY-ZZZZZ-AAAAA-23456   # Required - replace with your mPulse API key
+
+#  Plausible:
+#    domain: 'example.com'   # The domain configured in plausible
+#    source: 'https://plausible.example.com/js/plausible.js' # The source of the javascript
+
+#################################
+# --- EXOCORE CONFIGURATION --- #
+#################################
+
+baseurl: '' 
 source: .
-url: https://hyperstition.netlify.app/
-baseurl: ''
-destination: ./_site
-exclude: ['other/_includes/notes_graph.json']
-
-
+destination: _site
+background: "red"
 highlighter: rouge
-
 gist:
   noscript: false
 
 kramdown:
   math_engine: mathjax
   syntax_highlighter: rouge
+  footnote_backlink: "↲"
+
+last-modified-at:
+  date-format: '%B %d, %Y' # Change the format of the 'last modified' date. 
 
 readme_index:
   enabled: true
 
-repository: hot-domme/james-liao
-
 sass:
-    sass_dir: ./other/_sass
+    sass_dir: ./exocore/_sass
 
-layouts_dir: ./other/_layouts
-includes_dir: ./other/_includes
-plugins_dir: ./other/_plugins
-
-permalink: pretty
-
+layouts_dir: ./exocore/_layouts
+includes_dir: ./exocore/_includes
+plugins_dir: ./exocore/_plugins
+data_dir: ./exocore/data
       
 defaults:
   - scope:
@@ -37,50 +68,99 @@ defaults:
     values:
       layout: "default"
       date: "Jan 1 2000"
-      
   - scope:
-      path: "" 
-      type: "daily"
+      path: ""
     values:
+      image: /assets/imgs/card.png
+  - scope:
+      path: ""
+      type: "articles"
+    values: 
+      layout: "article"
+  - scope:
+      path: ""
+      type: "journal"
+    values: 
+      layout: "journal"
+  - scope:
+      path: ""
+      type: "wiki"
+    values: 
+      layout: "wiki"
+  - scope:
+      path: ""
+      type: "daily"
+    values: 
       layout: "daily"
-      date: "Jan 1 2000"
+  - scope:
+      path: ""
+      type: "scrapbook"
+    values: 
+      layout: "scrapbook"
 
-feed:
-  categories:
-    - article
-    - note
-    - journal
 
 collections:
 
-  daily:
+  wiki:
     output: true
+    permalink: /:collection/:slug
 
-  notes:
-    output: true
-    
   journal:
     output: true
-    
+    permalink: /:collection/:slug
+
   articles:
     output: true
-    
+    permalink: /:collection/:slug
+
+  daily:
+    output: true
+    permalink: /:collection/:slug
+  
+  scrapbook:
+    output: true
+    permalink: /:collection/:slug
+  
 relative_links:
-  enabled:     false
-  collections: false
+  enabled:     true
+  collections: true
   
 titles_from_headings:
   enabled:     true
   strip_title: true
   collections: true
     
-tag_page_layout: tag_page
-tag_page_dir: tag
-
 graphviz:
   options: "-Tsvg" # 'dot' command option
   command: "dot"   # execute this string. specify full path to 'dot' if you need
 
+# Configure your network graph:
+
+graph:
+  enabled: true
+  exclude: []
+  path:
+    assets: "/assets"
+    scripts: "/js"
+  net_web:
+    enabled: true
+    exclude:
+      attrs: false
+      links: false
+    force:
+      charge: -400
+      strength_x: 0.2
+      x_val: 0.1
+      strength_y: 0.2
+      y_val: 0.1
+  tree:
+    enabled: false
+    force:
+      charge:
+      strength_x:
+      x_val:
+      strength_y:
+      y_val:
 
 plugins:
 - jekyll-optional-front-matter
@@ -88,16 +168,14 @@ plugins:
 - jekyll-default-layout
 - jekyll-titles-from-headings
 - jekyll-relative-links
-- jekyll-github-metadata
+# - jekyll-github-metadata
 - jekyll-seo-tag
 - html-proofer
 - rubocop
 - w3c_validators
 - jekyll-last-modified-at
 - jekyll-redirect-from
-#- jekyll-feed
-- jekyll/tagging
+- jekyll-feed
 - jekyll-wikilinks
+- jekyll-last-modified-at
 - jekyll-graph
-- ruby-graphviz
-

@@ -1,7 +1,6 @@
 ---
-layout: journal
-category: journal
 subtitle:
+published: draft
 date: 2022-04-22
 tags: meta exocore computers learning
 ---
@@ -10,8 +9,6 @@ tags: meta exocore computers learning
 
 {% graphviz %}
 
-
-    
 digraph G {
 
     bgcolor="black"

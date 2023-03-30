@@ -1,6 +1,4 @@
 ---
-layout: journal
-category: journal
 subtitle:
 date: 2022-02-02
 tags: recipe nutrition food
