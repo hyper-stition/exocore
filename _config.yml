@@ -38,7 +38,7 @@ jekyll_analytics:        # Uncomment desired analytics tracker and input details
 baseurl: '' 
 source: .
 destination: _site
-background: "red"
+background: "green"
 highlighter: rouge
 gist:
   noscript: false
