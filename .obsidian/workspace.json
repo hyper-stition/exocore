@@ -8,14 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "68bdb0177a6320a6",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
             "id": "3aa1ea3782e80e19",
             "type": "leaf",
             "state": {
@@ -28,19 +20,19 @@
             }
           },
           {
-            "id": "4a2198b9df0afe34",
+            "id": "a6359da1884f599a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_scrapbook/Untitled.md",
+                "file": "_daily/2023-06-06.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,6 +77,14 @@
               "type": "starred",
               "state": {}
             }
+          },
+          {
+            "id": "237dd86fc2abfc33",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
         ]
       }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_scrapbook/Untitled.md",
+                "file": "_daily/2023-06-06.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_scrapbook/Untitled.md",
+                "file": "_daily/2023-06-06.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_scrapbook/Untitled.md"
+                "file": "_daily/2023-06-06.md"
               }
             }
           },
@@ -177,10 +177,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "4a2198b9df0afe34",
+  "active": "a6359da1884f599a",
   "lastOpenFiles": [
+    "_daily/2023-06-06.md",
+    "_scrapbook/Marks and Spencer's Marketing Report.md",
     "_scrapbook/Predictive Processing and the Free Energy Principle.md",
-    "_scrapbook/Untitled.md",
     "_daily/2023-05-09.md",
     "_daily/2022-10-29.md",
     "_daily/2022-10-27.md",
