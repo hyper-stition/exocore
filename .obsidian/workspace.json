@@ -30,9 +30,21 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "21e225d6cdaabdf7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_daily/2023-06-12.md",
+                "mode": "source",
+                "source": true
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -177,8 +189,9 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a6359da1884f599a",
+  "active": "21e225d6cdaabdf7",
   "lastOpenFiles": [
+    "_daily/2023-06-12.md",
     "_daily/2023-06-06.md",
     "_scrapbook/Marks and Spencer's Marketing Report.md",
     "_scrapbook/Predictive Processing and the Free Energy Principle.md",
