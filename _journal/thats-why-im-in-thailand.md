@@ -8,7 +8,7 @@ foam_template:
   name: Journal Entry
 ---
 
-# 
+# thats-why-im-in-thailand
 Ohhhh yeah CAN YOU FEEL IT ???
 
 Can you feel that rush?
