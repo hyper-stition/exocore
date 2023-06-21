@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_daily/2023-06-12.md",
+                "file": "_daily/2023-06-21.md",
                 "mode": "source",
                 "source": true
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_daily/2023-06-06.md",
+                "file": "_daily/2023-06-21.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_daily/2023-06-06.md",
+                "file": "_daily/2023-06-21.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_daily/2023-06-06.md"
+                "file": "_daily/2023-06-21.md"
               }
             }
           },
@@ -192,6 +192,7 @@
   "active": "21e225d6cdaabdf7",
   "lastOpenFiles": [
     "_daily/2023-06-12.md",
+    "_daily/2023-06-21.md",
     "_daily/2023-06-06.md",
     "_scrapbook/Marks and Spencer's Marketing Report.md",
     "_scrapbook/Predictive Processing and the Free Energy Principle.md",
