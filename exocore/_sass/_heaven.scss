@@ -6,16 +6,16 @@
 
 $background: white;
 $color-border: none;
-$color-inner-divs: rgb(255, 255, 255);
-$color-items: rgb(255, 255, 255);
+$color-inner-divs: white;
+$color-items: white;
 
 
 /* --- Text Colors --- */
-$color-text: blue;
-$color-subtext: blue;
+$color-text: rgb(0, 0, 0);
+$color-subtext: rgb(0, 0, 0);
 $color-code: #5f5f5f;
-$internal-links: rgb(0, 217, 255);
-$external-links: rgb(0, 217, 255);
+$internal-links:rgb(255, 0, 106);
+$external-links: rgb(255, 0, 106);
 $invalid-links: $internal-links;
 $color-primary: rgb(255, 0, 106);
 $color-secondary: #ff1d60;
