@@ -4,33 +4,33 @@
 
 /* --- Body Colors --- */
 
-$background: lightgrey;
+$background: white;
 $color-border: none;
-$color-inner-divs: white;
-$color-items: white;
+$color-inner-divs: rgb(255, 219, 252);
+$color-items: rgb(255, 219, 252);
 
 
 /* --- Text Colors --- */
-$color-text: black;
-$color-subtext: black;
-$color-code: #707070;
-$internal-links: blue;
-$external-links: blue;
+$color-text: rgb(0, 0, 0);
+$color-subtext: rgb(0, 0, 0);
+$color-code: #5f5f5f;
+$internal-links: rgb(0, 217, 255);
+$external-links: rgb(0, 217, 255);
 $invalid-links: $internal-links;
-$color-primary: darkblue;
-$color-secondary: blue;
+$color-primary: rgb(255, 0, 106);
+$color-secondary: #ff1d60;
 $color-box-shadow: none;
 
 
 /* --- Borders --- */
-$article-border: 1px solid rgba(255, 255, 255, 0.6);
-$sidebar-border: 1px solid rgba(255, 255, 255, 0.6);
-$prev-next-border: 1px solid rgba(255, 255, 255, 0.6);
+$article-border: 1px solid rgba(255, 219, 252, 0.6);
+$sidebar-border: 1px solid rgba(255, 219, 252, 0.6);
+$prev-next-border: 1px solid rgba(255, 219, 252, 0.6);
 $color-item-border: none;
 $border-radius: 15px;
 
 /* --- Embeds, Sidenote and Footnote Colors --- */
-$embed-border: medium double blue;
+$embed-border: medium double rgb(0, 217, 255);
 $color-embed-background: $color-inner-divs;
 $color-embed-title: black;
 $color-embed-text: black;
@@ -46,7 +46,7 @@ $color-sidenote-text: black;
 
 
 /* --- Font Family --- */
-$font-family-sans-serif: Helvetica, Arial, -apple-system, BlinkMacSystemFont, Segoe UI,  sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+$font-family-sans-serif: Comic Sans, Helvetica, Arial, -apple-system, BlinkMacSystemFont, Segoe UI,  sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
 
 $font-family-serif: serif;
 
