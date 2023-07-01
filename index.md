@@ -4,4 +4,4 @@ title: Home
 ---
 
 
-[![](/images/logo.png)](/)
+[![](<assets/imgs/Без названия.png>)](/)
