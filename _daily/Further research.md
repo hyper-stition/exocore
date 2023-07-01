@@ -1,5 +1,5 @@
 ---
-published: true
+published: false
 subtitle: 
 date: 2023-06-21
 tags: serotonin psychology philosophy religion Monarch CIA memetics
