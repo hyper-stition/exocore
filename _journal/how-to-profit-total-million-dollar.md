@@ -2,7 +2,7 @@
 published: true
 subtitle:
 date: 2023-07-03
-tags: chinese twitter
+tags: chinese twitter xiaohongshu
 foam_template:
   filepath: '_journal/how-to-profit-total-million-dollar.md'
   name: Journal Entry
