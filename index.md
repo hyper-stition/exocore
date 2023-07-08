@@ -2,12 +2,7 @@
 layout: home
 title: Home
 ---
-
-# 𝕭𝕽𝕲  
-
-
 [![](<images/CC9978F4-6A45-4437-AF05-8C77D33FD256.jpeg>)](/)
-
 
 [YouTube](https://www.youtube.com/channel/UCn1iyvKXmSoMUMALYRCT_Kg)
 
@@ -34,4 +29,4 @@ title: Home
 
 
 
-## I Love You Forever
+I Love You Forever
