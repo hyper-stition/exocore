@@ -1,0 +1,34 @@
+<html>
+<head>
+<title>HotWired Address Failed</title>
+</head>
+
+<body  bgcolor= "#ffff00" link= "#ff0000"  alink="#ffff00"  vlink="#ff00ff">
+
+
+<!-- start local exec -->
+<!-- end local exec -->
+
+
+<blockquote>
+<PRE>
+
+</PRE>
+
+<IMG SRC="/images/hw.logo.gif" ALIGN=TOP><p>
+
+<font size=6>Address Failed</font>
+
+<font size=4>
+
+<p>You have tried to go to an address that is not valid for HotWired. You might want to come in through our <a href="/frontdoor/">front door</a>, or go to our <a href="/architext/AT-HotWiredquery.html">search</a> page.
+
+<p>If you would like help from a live human, e-mail us at <a href="mailto:support@hotwired.com">support@hotwired.com</a>.
+
+</font>
+
+</blockqoute>
+
+</body>
+
+</html>
