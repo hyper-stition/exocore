@@ -78,9 +78,9 @@
 
         div.css({
             position: "absolute",
-            left: startPosition,
+            left: "75%",
             top: topPosition["top"],
-            width: startPosition/3,
+            width: startPosition/2,
         });
 
         if (startPosition > 420) {
