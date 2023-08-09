@@ -2,7 +2,7 @@
 layout: home
 title: Home
 ---
-[![](<images/CC9978F4-6A45-4437-AF05-8C77D33FD256.jpeg>)](/)
+[![](<assets/../assets/imgs/qiancorp.png>)](/)
 
 [YouTube](https://www.youtube.com/channel/UCn1iyvKXmSoMUMALYRCT_Kg)
 
