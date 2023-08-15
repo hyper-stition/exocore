@@ -301,9 +301,10 @@ license {
          }}
 
 .midcolumn {
-    float: center;
+    float: left;
     width: 60%;
     margin: 0.5em;
+    text-align: center
     
 @media (max-width: 900px)
      {width: 100%;
