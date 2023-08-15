@@ -1,0 +1,142 @@
+(globalThis.webpackChunkverso=globalThis.webpackChunkverso||[]).push([[37],{20798:(e,o,t)=>{const a=t(67294),i=t(45697),r=t(73955),s=t(23279),{useIntl:n}=t(36319),{Slot:l}=t(86972),d=t(97425),m=t(54866),u=t(3258),{FilterableSummaryList:c}=t(54526),p=t(80152),h=t(37732),g=t(44031),C=t(16126),{trackComponent:y}=t(40199),{modifyItemObjectBasedOnContentType:b,childTobeRendered:S}=t(64767),{formatGtmData:f,productImpressionTracking:P}=t(12190),v=({copilotId:e,buttonConfig:o,ctaCardAspectRatio:t,dangerousHed:i,dangerousDek:v,dropShipSellers:w,editor:T,groups:$,hasBorder:x,hasBorderBottom:N,hasCarouselSliderPagination:I,hasControls:A,hasImageGrid:k,hasAtRetailerNameLowerCase:B,hasMediumMarginBottom:E,hasNavigationButtonVariation:L,hasPadding:R,hasProductPriceColor:H,hasProductNewPriceColor:D,hasProductWhiteBackground:O,hasGridColumn:M,hasUnderlineHed:U,isProductCardName:V,isProductCardRetailerName:F,shouldCheckProductInView:G,hasMarginTopAuto:j,hasNoBottomPaddingForGridContent:W,hasPLPBrandNameContextTitle:z,hasPLPCardNameDescriptionCore:_,paginationStyle:q,sectionTitleVariation:K,shouldChipsRedirectOnClick:Z,shouldEnableBundleComponentAnalytics:J,shouldHideDangerousDek:Q,shouldHidePublishDate:X,shouldPlayInline:Y,shouldRenderCtaCard:ee,showOfferUrl:oe,showShopNowButton:te,summaryItemVariation:ae,shouldUseAlternativeTitleStyle:ie,shouldUseProductPriceSecondary:re,shouldNavigateToNewTab:se,shouldUseSmallHed:ne,expVariationName:le,isDropshipProduct:de,trackingNamespace:me,isDotClickable:ue,layout:ce,gridConfig:pe,priceFormatting:he,affiliateDisclaimer:ge,shouldAffiliateDisclaimerPlpEnable:Ce,isUpcEnabled:ye,isPlpCurated:be,isContentCenter:Se,hasCustomSlider:fe,hideDesktopPagination:Pe})=>{a.useEffect((()=>{y("VersoFilterableSummaryList")}),[]);const{formatMessage:ve}=n(),we=ce||"Carousel",Te="ContentCarousel"===we,$e="GridFourColumns"===we?"PLP":ce,xe=i?i.replace(/[^a-zA-Z]+/gi,"-").toLowerCase():"",{gridItemColSpan:Ne}=pe||{};a.useEffect((()=>{Te||(window.addEventListener("scroll",s((()=>{P($e,document.getElementsByClassName("impressionTracking"))}),1e3)),window.addEventListener("load",(()=>P($e,document.getElementsByClassName("impressionTracking")))))}),[$e,Te]);const Ie=M&&"GridFourColumns"===we,[Ae]=a.useState(parseInt(r(),10));return $&&0!==$.length?a.createElement(c,{dangerousHed:i,dangerousDek:v,editor:T,sectionTitleVariation:K,shouldChipsRedirectOnClick:Z,shouldEnableBundleComponentAnalytics:J,shouldUseAlternativeTitleStyle:ie,hasImpressionTracking:!0,trackingNamespace:me,isDotClickable:ue,hasCarouselSliderPagination:I,hasCarouselControl:Te,hasControls:A,hasNavigationButtonVariation:L,hasToggleGridColor:Ie,hasPadding:R,layout:we,pos:Ae,paginationStyle:q,buttonConfig:o,gridConfig:pe,hasBorderBottom:N,affiliateDisclaimer:ge,shouldAffiliateDisclaimerPlpEnable:Ce,isPlpCurated:be,hasCustomSlider:fe,hideDesktopPagination:Pe,isUpcEnabled:ye},$.map((o=>{const i=function(o){switch(we){case"ContentCarousel":case"GridFourColumns":case"EditorsPicksCarousel":return(o=>o.items.map(((o,t)=>{const i=o.contentType;if(["commerce-product","product"].includes(i))return ye?a.createElement(h,Object.assign({},o,{isLazy:!0,key:`${o.dangerousHed}-${t}`,dropShipSellers:w,isDropshipProduct:de,showOfferUrl:oe,data_item:o})):a.createElement(p,Object.assign({},o,{key:`${o.dangerousHed}-${t}`,hasAtRetailerNameLowerCase:B,hasImageGrid:k,hasProductPriceColor:H,hasProductNewPriceColor:D,shouldUseProductPriceSecondary:re,hasProductWhiteBackground:O,isLazy:!0,isProductCardName:V,isProductCardRetailerName:F,hasMarginTopAuto:j,hasPLPBrandNameContextTitle:z,hasPLPCardNameDescriptionCore:_,hasUnderlineHed:U,hasCarouselControl:Te,shouldCheckProductInView:G,layout:we,copilotID:e,dropShipSellers:w,isDropshipProduct:de,showOfferUrl:oe,hasImpressionTracking:!0,data_item:o,onClick:()=>f(window,Object.assign(Object.assign({},o),{expVariationName:le}),t,$e,xe),expVariationName:le,layoutName:xe,priceFormatting:he,hideDesktopPagination:Pe}));const r=b(o,i,Y);let s=g[ae];return r.showAssetOnly?s=C:Se&&"externallink"===i&&(s=g.TextBelowCenter),a.createElement(s,Object.assign({gridItemColSpan:(null==r?void 0:r.showAssetOnly)?1:Ne,shouldHideIcon:!0,shouldHideMetadataSecondary:!0},r,{key:`${o.dangerousHed}-${t}`,hasBorder:x,hasUnderlineHed:U,shouldHideDangerousDek:Q,shouldHidePublishDate:!0,hasHedCorePrimary:!0,shouldPlayInline:Y,hasNoBottomMarginForCneVideo:"cnevideo"===i,hasNoBottomPaddingForCneVideo:"cnevideo"===i,hasNoBottomPaddingForGridContent:W&&"GridFourColumns"===we,hasMediumMarginBottom:E,buttonSize:"default",showShopNowButton:te&&"externallink"===i,isPlpCurated:be,shouldNavigateToNewTab:se,hideDesktopPagination:Pe,shouldUseSmallHed:ne&&"externallink"===i&&"GridFourColumns"!==we}))})))(o);case"ArticleCarousel":return(e=>{const o=g[ae];return e.items.map(((e,t)=>a.createElement(o,Object.assign({},e,{key:`${e.dangerousHed}-${t}`,hasBorder:x,hasUnderlineHed:U,shouldHideDangerousDek:Q,shouldHidePublishDate:X}))))})(o);default:return o.items.map(((e,o)=>a.createElement(d,Object.assign({},e,{key:`${e.hed}-${o}`}))))}}(o);ee&&o.url&&i.push(a.createElement(m,{aspectRatio:t,key:`cta-${o.label}`,url:o.url},ve(u.ctaMessage,{groupName:o.label.toLocaleLowerCase()})));const r=S(i);return a.createElement(l,{key:o.label,name:o.label,url:o.url},r)}))):null};v.propTypes={affiliateDisclaimer:i.string,buttonConfig:i.object,copilotId:i.string,ctaCardAspectRatio:i.arrayOf(i.number),dangerousDek:i.string,dangerousHed:i.string,dropShipSellers:i.arrayOf(i.string),editor:i.object,expVariationName:i.string,gridConfig:i.object,groups:i.arrayOf(i.object),hasAtRetailerNameLowerCase:i.bool,hasBorder:i.bool,hasBorderBottom:i.bool,hasCarouselSliderPagination:i.bool,hasControls:i.bool,hasCustomSlider:i.bool,hasGridColumn:i.bool,hasImageGrid:i.bool,hasMarginTopAuto:i.bool,hasMediumMarginBottom:i.bool,hasNavigationButtonVariation:i.bool,hasNoBottomPaddingForGridContent:i.bool,hasPadding:i.bool,hasPLPBrandNameContextTitle:i.bool,hasPLPCardNameDescriptionCore:i.bool,hasProductNewPriceColor:i.bool,hasProductPriceColor:i.bool,hasProductWhiteBackground:i.bool,hasToggleGridColor:i.bool,hasUnderlineHed:i.bool,hideDesktopPagination:i.bool,isContentCenter:i.bool,isDotClickable:i.bool,isDropshipProduct:i.bool,isPlpCurated:i.bool,isProductCardName:i.bool,isProductCardRetailerName:i.bool,isUpcEnabled:i.bool,layout:i.string,paginationStyle:i.string,priceFormatting:i.shape({fractionDigits:i.number,shouldFormatDecimalSeparator:i.bool}),sectionTitleVariation:i.string,shouldAffiliateDisclaimerPlpEnable:i.bool,shouldCheckProductInView:i.bool,shouldChipsRedirectOnClick:i.bool,shouldEnableBundleComponentAnalytics:i.bool,shouldHideDangerousDek:i.bool,shouldHidePublishDate:i.bool,shouldNavigateToNewTab:i.bool,shouldPlayInline:i.bool,shouldRenderCtaCard:i.bool,shouldUseAlternativeTitleStyle:i.bool,shouldUseProductPriceSecondary:i.bool,shouldUseSmallHed:i.bool,showNewProductCardDesign:i.bool,showOfferUrl:i.bool,showShopNowButton:i.bool,summaryItemVariation:i.string,trackingNamespace:i.shape({toggle:i.string,card:i.string})},v.displayName="VersoFilterableSummaryList",v.defaultProps={ctaCardAspectRatio:[2,1],dropShipSellers:[],hasAtRetailerNameLowerCase:!1,hasMarginTopAuto:!1,isDotClickable:!1,isDropshipProduct:!1,isProductCardRetailerName:!1,layout:"Carousel",sectionTitleVariation:"TextCenter",shouldChipsRedirectOnClick:!1,shouldEnableBundleComponentAnalytics:!1,shouldPlayInline:!1,shouldRenderCtaCard:!1,shouldUseSmallHed:!1,showNewProductCardDesign:!1,showShopNowButton:!1,summaryItemVariation:"TextBelowLeft"},e.exports=v},50037:(e,o,t)=>{const{asConfiguredComponent:a}=t(36380),i=t(20798);e.exports=a(i,"VersoFilterableSummaryList")},54526:(e,o,t)=>{const{default:a}=t(51117),{BREAKPOINTS:i}=t(85326),{minScreen:r,calculateSpacing:s,minMaxScreen:n,getTypographyStyles:l,getColorStyles:d}=t(79720),{cssVariablesGrid:m,applyGridSpacing:u}=t(62470),{LabelText:c,ListWrapper:p}=t(10719),{CarouselListItem:h}=t(95764),{CarouselWrapper:g,ChipWrapper:C}=t(78153),y=t(33528),b=t(44031),{SummaryItemHedBase:S}=t(27853),f=a(y).withConfig({displayName:"FilterableSummaryList"})`
+  margin: 0 auto;
+  ${({hasToggleGridColor:e})=>!e&&`max-width:${i.fullBleed};\n  ${m()}`}
+  ${({hasPadding:e})=>!e&&u("padding")}
+  ${h}:first-child {
+    box-sizing: content-box;
+    ${({hasPadding:e})=>e?`padding-left:${s(8)};\n      ${n(0,i.md)}\n      {  \n        padding-left:${s(3)};  \n      }`:"padding-left: 0;"}
+  }
+  ${h}:last-child {
+    box-sizing: content-box;
+    ${({hasPadding:e})=>e?`padding-right:${s(8)};\n    ${n(0,i.md)}\n     { padding-right:${s(3)}; \n    }`:null}
+  }
+  ${r(i.xxl)} {
+    ${C},
+    ${g} {
+      ${({hasToggleGridColor:e})=>!e&&"margin-left: revert;\n      margin-right: revert;"}
+      ${c} ,
+      ${p} {
+        padding-right: revert;
+        padding-left: revert;
+      }
+      ${h}:first-child {
+        ${({hasPadding:e})=>!e&&"padding-left: revert;"}
+      }
+      ${h}:last-child {
+        ${({hasPadding:e})=>!e&&"padding-right: revert;"}
+      }
+    }
+  }
+`,P=a(b).withConfig({displayName:"SummaryItemExpernalLinkWrapper"})`
+  ${S} {
+    ${({theme:e})=>`${l(e,"typography.definitions.discovery.hed-core-primary")};\n      ${d(e,"color","colors.discovery.body.white.heading")}`}
+  }
+`;e.exports={FilterableSummaryList:f,SummaryItemExpernalLinkWrapper:P}},26760:(e,o,t)=>{const a=t(67294),i=t(45697),{CTACardBody:r,CTACardContent:s,CTACardFooter:n,CTACardIcon:l,CTACardText:d,CTACardWrapper:m}=t(91894),u=({aspectRatio:e,children:o,url:t})=>a.createElement(m,{aspectRatio:e},a.createElement(s,null,a.createElement(r,null,a.createElement(d,{href:t},o)),a.createElement(n,null,a.createElement("a",{href:t},a.createElement(l,null)))));u.propTypes={aspectRatio:i.arrayOf(i.number),children:i.node.isRequired,url:i.string.isRequired},u.defaultProps={aspectRatio:[1,1]},e.exports=u},54866:(e,o,t)=>{e.exports=t(26760)},91894:(e,o,t)=>{const{default:a}=t(51117),{BREAKPOINTS:i}=t(85326),{calculateSpacing:r,getColorToken:s,getDecoration:n,minScreen:l}=t(79720),{BaseLink:d}=t(74327),m=t(32574),u=a.div.withConfig({displayName:"CTACardWrapper"})`
+  position: relative;
+  border-radius: ${({theme:e})=>n(e,"cardRadiusSm")};
+  background-color: ${s("colors.discovery.body.brand.background")};
+  padding-top: ${({aspectRatio:e})=>e[1]/e[0]*100}%;
+
+  ${l(i.md)} {
+    border-radius: ${({theme:e})=>n(e,"cardRadiusMd")};
+  }
+
+  ${l(i.lg)} {
+    border-radius: ${({theme:e})=>n(e,"cardRadiusLg")};
+  }
+`,c=a.div.withConfig({displayName:"CTACardContent"})`
+  display: flex;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  flex-direction: column;
+  padding: 0 ${r(3)} ${r(2)}
+    ${r(3)};
+
+  ${l(i.lg)} {
+    padding: 0 ${r(5)} ${r(5)}
+      ${r(5)};
+  }
+`,p=a.div.withConfig({displayName:"CTACardBody"})`
+  display: flex;
+  flex: 1 0 auto;
+  align-items: center;
+`,h=a.div.withConfig({displayName:"CTACardFooter"})`
+  height: ${r(6)};
+`,g=a(d).withConfig({displayName:"CTACardText"})``;g.defaultProps={colorToken:"colors.discovery.body.brand.heading",typeIdentity:"typography.definitions.discovery.hed-core-secondary"};const C=a(m).withConfig({displayName:"CTACardIcon"})`
+  border-radius: 50%;
+  background-color: ${s("colors.discovery.body.brand.context-signature")};
+  width: ${r(6)};
+  height: ${r(6)};
+  fill: ${s("colors.discovery.body.brand.context-texture")};
+`;e.exports={CTACardBody:p,CTACardContent:c,CTACardFooter:h,CTACardIcon:C,CTACardText:g,CTACardWrapper:u}},3258:(e,o,t)=>{const{defineMessages:a}=t(36319);e.exports=a({ctaMessage:{id:"VersoFilterableSummaryList.CTAMessage",defaultMessage:"See more {groupName} recipes",description:"Message to display in the CTACard"}})},64767:(e,o)=>{Object.defineProperty(o,"__esModule",{value:!0}),o.childTobeRendered=o.modifyItemObjectBasedOnContentType=void 0,o.modifyItemObjectBasedOnContentType=(e,o,t)=>("cnevideo"===o&&t&&(e.image=Object.assign(Object.assign({},e.image),{url:(null==e?void 0:e.url)||"",dangerousHed:e.dangerousHed||""})),e),o.childTobeRendered=e=>e.filter((e=>{var o,t,a,i,r,s,n;return((null===(t=null===(o=null==e?void 0:e.props)||void 0===o?void 0:o.image)||void 0===t?void 0:t.id)||(null===(a=null==e?void 0:e.props)||void 0===a?void 0:a.aspectRatio)||"cnevideo"===(null===(i=null==e?void 0:e.props)||void 0===i?void 0:i.contentType)&&((null===(s=null===(r=null==e?void 0:e.props)||void 0===r?void 0:r.image)||void 0===s?void 0:s.scriptUrl)||(null===(n=null==e?void 0:e.props)||void 0===n?void 0:n.url)))&&e}))},25996:(e,o,t)=>{const a=t(45697),i=t(67294),{trackComponent:r}=t(40199),{SummaryItemSimpleAnchor:s,SummaryItemSimpleHed:n,SummaryItemResponsiveAsset:l,SummaryItemLiveWrapperAsset:d,SummaryItemLiveSpacerAsset:m,SummaryItemLiveEllipseAsset:u,SummaryItemLiveLabelAsset:c,SummaryItemSimpleSubHed:p,SummaryItemCustomMessage:h}=t(37771),g=t(48349),C=({image:e,isLive:o,isRunwayRecommendationSubHed:t,hasMobilePaddingBottom:a,hed:C,showAssetOnly:y,subHed:b,liveLabel:S,url:f,analyticsEvent:P,customMessage:v,showPrice:w,hasUnderlineHed:T})=>{i.useEffect((()=>{r("SummaryItemSimple")}),[]);const $=e&&i.createElement(l,Object.assign({},e,{hasMobilePaddingBottom:a}));return y?$:i.createElement(s,{href:f,"data-testid":"SummaryItemSimple",onClick:()=>{P&&g.emitGoogleTrackingEvent(P,{"event-label":C,"gtm.elementUrl":f})},hasUnderlineHed:T,hasMobilePaddingBottom:a},$,e&&o&&i.createElement(d,null,i.createElement(u,null),i.createElement(m,null),i.createElement(c,null," ",S," ")),C&&i.createElement(n,{as:"h3",hasMobilePaddingBottom:a},C),b&&i.createElement(p,{showPrice:w,as:"p"},w?b:null),v&&i.createElement(h,{isRunwayRecommendationSubHed:t}," ",v," "))};C.propTypes={analyticsEvent:a.string,customMessage:a.string,hasMobilePaddingBottom:a.bool,hasUnderlineHed:a.bool,hed:a.string,image:a.shape(l.propTypes),isLive:a.bool,isRunwayRecommendationSubHed:a.bool,liveLabel:a.string,showAssetOnly:a.bool,showPrice:a.bool,subHed:a.string,url:a.string.isRequired},C.defaultProps={hasUnderlineHed:!0,isLive:!1,isRunwayRecommendationSubHed:!1,liveLabel:"LIVE",showAssetOnly:!1},e.exports=C},16126:(e,o,t)=>{const{asConfiguredComponent:a}=t(36380),i=t(25996);e.exports=a(i,"SummaryItemSimple")},37771:(e,o,t)=>{const a=t(51117).default,{calculateSpacing:i,getColorStyles:r,getTypographyStyles:s}=t(79720),{BREAKPOINTS:n}=t(85326),{BaseLink:l,BaseText:d}=t(74327),m=t(98288),u=a(l).withConfig({displayName:"SummaryItemSimpleAnchor"})`
+  display: block;
+  position: relative;
+  ${({hasMobilePaddingBottom:e})=>`padding-bottom: ${i(e?4:3)};}`};
+
+  && {
+    ${({hasUnderlineHed:e})=>!e&&"text-decoration: none"}
+  }
+`,c=a(d).withConfig({displayName:"SummaryItemSimpleHed"})`
+  ${({hasMobilePaddingBottom:e})=>`padding-bottom: ${i(e?.5:1.5)};}`};
+  text-align: center;
+
+  ${({theme:e})=>s(e,"typography.definitions.discovery.hed-core-secondary")}
+  ${({theme:e})=>r(e,"color","colors.discovery.lead.secondary.hed")};
+`,p=a(d).withConfig({displayName:"SummaryItemSimpleSubHed"})`
+  text-align: center;
+  ${({theme:e,showPrice:o})=>s(e,o?"typography.definitions.discovery.hed-core-secondary":"typography.definitions.globalEditorial.context-tertiary")}
+  ${({theme:e})=>r(e,"color","colors.discovery.body.white.context-tertiary")};
+`,h=a(m).withConfig({displayName:"SummaryItemResponsiveAsset"})`
+  ${({hasMobilePaddingBottom:e})=>`padding-bottom: ${i(e?1.5:.5)};}`};
+  @media (min-width: ${n.md}) {
+    padding-bottom: ${i(1)};
+  }
+
+  img {
+    width: 100%;
+  }
+`,g=a.div.withConfig({displayName:"SummaryItemLiveWrapperAsset"})`
+  display: flex;
+  position: absolute;
+  top: 24px;
+  left: 12px;
+  flex-direction: row;
+  align-items: center;
+  background: #a60505;
+  padding: 2px 4px;
+  height: 19px;
+`,C=a.div.withConfig({displayName:"SummaryItemLiveSpacerAsset"})`
+  position: static;
+  opacity: 0.3;
+  width: 4px;
+`,y=a.div.withConfig({displayName:"SummaryItemLiveEllipseAsset"})`
+  top: 7px;
+  left: 4px;
+  flex: none;
+  flex-grow: 0;
+  order: 0;
+  margin: 4px 0;
+  ${({theme:e})=>r(e,"background-color","colors.interactive.base.white")};
+  width: 5px;
+  height: 5px;
+`,b=a.div.withConfig({displayName:"SummaryItemLiveLabelAsset"})`
+  top: 2px;
+  left: 13px;
+  flex: none;
+  flex-grow: 0;
+  order: 1;
+  margin: 4px 0;
+  height: 15px;
+  ${({theme:e})=>s(e,"typography.definitions.globalEditorial.context-tertiary")}
+  line-height: 15px;
+  ${({theme:e})=>r(e,"color","colors.interactive.base.white")};
+`,S=a(d).withConfig({displayName:"SummaryItemCustomMessage"})`
+  ${({theme:e})=>s(e,"typography.definitions.globalEditorial.ad-label")}
+  ${({theme:e})=>r(e,"color","colors.consumption.body.standard.adlabel")};
+  text-align: center;
+
+  ${({theme:e,isRunwayRecommendationSubHed:o})=>o&&`\n        ${s(e,"typography.definitions.globalEditorial.context-secondary")}\n        ${r(e,"color","colors.consumption.body.standard.subhed")}\n      `};
+`;S.displayName="SummaryItemCustomMessage",e.exports={SummaryItemSimpleAnchor:u,SummaryItemSimpleHed:c,SummaryItemResponsiveAsset:h,SummaryItemLiveWrapperAsset:g,SummaryItemLiveSpacerAsset:C,SummaryItemLiveEllipseAsset:y,SummaryItemLiveLabelAsset:b,SummaryItemSimpleSubHed:p,SummaryItemCustomMessage:S}}}]);

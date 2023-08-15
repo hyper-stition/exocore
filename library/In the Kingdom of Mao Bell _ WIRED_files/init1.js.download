@@ -1,0 +1,135 @@
+//<script>
+bouncex.init1Response({
+    "brand_styles": false,
+    "webfonts": false,
+    "cookie": {
+        "did": "8200023552503344951",
+        "vid": 1688735121532185,
+        "v": {
+            "submitted_onsite": false,
+            "ever_logged_in": false,
+            "submitted_email_backchannel": false,
+            "submitted_email_gadgetlabs": false,
+            "submitted_email_games": false,
+            "submitted_email_transport": false,
+            "submitted_email_techintwo": false,
+            "submitted_email_science": false,
+            "submitted_email_deals": false,
+            "submitted_email_daily": false,
+            "ccpa_cali": "true",
+            "reg_gate_submitted": false,
+            "reg_gate_url": "false",
+            "submitted_email_podcasts": false,
+            "barrier_link_click": "false",
+            "barrier_timestamp": 1685445953690,
+            "barrier_seen_month": false
+        },
+        "sid": -1,
+        "fvt": 1683114497,
+        "ao": 0,
+        "lp": "https%3A%2F%2Fwww.wired.com%2F1994%2F02%2Fmao-bell%2F",
+        "as": 0,
+        "vpv": 1,
+        "d": "d",
+        "r": "",
+        "cvt": 1688735121,
+        "gcr": 44,
+        "m": 0,
+        "lvt": 1688735121
+    },
+    "debug": false,
+    "testmode": {
+        "bxtest": false,
+        "office": false,
+        "bxdev": false
+    },
+    "state": {
+        "newvid": true,
+        "iol": true,
+        "tn": 1688735121,
+        "pvid": 1,
+        "gdpr": true,
+        "casl": false,
+        "device": {
+            "browser": "Chrome",
+            "version": "114.0.0.0",
+            "platform": "Windows 10",
+            "device_type": "desktop"
+        },
+        "no_kinesis": true,
+        "request_token": "19cdf327f57a48c898bdd54fd8bcf887234d46237ac16373bbb582e088520794",
+        "mobile": false,
+        "vip": "84.69.116.167",
+        "geo": {
+            "country": "GB",
+            "country_code": "GB",
+            "country_code3": "GBR",
+            "country_name": "United Kingdom",
+            "region": "ENG",
+            "region_name": "England",
+            "city": "Coventry",
+            "postal_code": "CV2",
+            "zip": "CV2",
+            "area_code": "",
+            "dma_code": null,
+            "metro_code": null,
+            "continent_code": "EU",
+            "google": {
+                "zip": "",
+                "country": "GB",
+                "country_code": "GB",
+                "region": "ENG",
+                "city": "Barnstaple",
+                "continent_code": "EU",
+                "country_name": "UK",
+                "region_name": ""
+            }
+        }
+    },
+    "gbi_stacks": false,
+    "creatives": false,
+    "campaigns": false,
+    "gbi2_enabled": false,
+    "ssp_config": {
+        "index": {
+            "s": "507847",
+            "qa_site_id": 167884,
+            "reload": 300000,
+            "stackWeight": 0,
+            "timeout": 2000,
+            "production": true,
+            "jsonp": true,
+            "ssp_priority": 2
+        },
+        "pbm": {
+            "desktop_id": "736989",
+            "mobile_id": "736990",
+            "publisher_id": "156512",
+            "qa_site_id": "248764",
+            "reload": 300000,
+            "timeout": 2000,
+            "endpoint": "hbopenbid.pubmatic.com\/translator?",
+            "user_sync_endpoint": "ads.pubmatic.com\/AdServer\/js\/user_sync.html",
+            "ssp_priority": 1
+        },
+        "bsw": {
+            "endpoint": "https:\/\/ssp.behave.com\/ad_page",
+            "qa_site_id": "1344",
+            "reload": "900000",
+            "site_id": "1335",
+            "ssp_priority": 4
+        }
+    },
+    "push_filepath": "\/",
+    "sms_enabled": false,
+    "sms_terms_conditions_link": "",
+    "sms_short_codes": [],
+    "brand_name": "",
+    "ads_config": {
+        "freqCapEnabled": false
+    },
+    "visit_cookie_updates": {
+        "is_go_session": false,
+        "is_gp_session": false
+    }
+});
