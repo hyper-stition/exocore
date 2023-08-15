@@ -11,8 +11,13 @@
             "id": "2315b239c1efb682",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "_daily/2023-08-15.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
             }
           }
         ]
@@ -120,6 +125,14 @@
                 "useHierarchy": true
               }
             }
+          },
+          {
+            "id": "e524b0ce2162aa83",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
           }
         ],
         "currentTab": 1
@@ -141,6 +154,7 @@
   },
   "active": "2315b239c1efb682",
   "lastOpenFiles": [
+    "_daily/2023-08-15.md",
     "assets/imgs/qiancorp.png",
     "assets/imgs/qiancorp 2@2x.png",
     "_daily/2023-08-07.md",
