@@ -17,7 +17,7 @@
   "autoBackupAfterFileChange": true,
   "treeStructure": false,
   "refreshSourceControl": true,
-  "basePath": "",
+  "basePath": "git@github.com:hyper-stition/exocore.git",
   "differentIntervalCommitAndPush": false,
   "changedFilesInStatusBar": false,
   "username": "",
