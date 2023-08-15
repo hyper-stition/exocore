@@ -1,4 +1,3 @@
-# ring
 ---
 layout: ring
 title: Webring

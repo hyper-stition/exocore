@@ -1,5 +1,5 @@
 
-# readme
+# The Exocore Package
 
 ![](/images/exocore.png)
 
