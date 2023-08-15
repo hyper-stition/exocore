@@ -406,7 +406,7 @@ nav { background-color: #fffbf0; border: none; padding: 1em; box-shadow: 1px 1px
 
 .leftcolumn { float: left; width: 15%; margin: 0.5em; }
 
-.midcolumn { float: left; width: 60%; margin: 0.5em; }
+.midcolumn { float: center; width: 60%; margin: 0.5em; }
 
 .midcolumn-small { width: 40%; margin: auto; }
 
