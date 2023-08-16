@@ -1,7 +1,10 @@
 ---
 layout: default
 ---
-
+<div class="container-lg markdown-body wrapper">
+  <div class="leftcolumn">
+{% include profile-card.html %}
+</div>
 
 <div class="midcolumn">
   <main>
@@ -33,7 +36,9 @@ layout: default
 </article>  
 
 </main>
-{% include profile-card.html %}
+{% if site.data.user.include_license %}
+{% include license.html %}
+{% endif %}
 </div>
 
 
