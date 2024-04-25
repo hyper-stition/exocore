@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Home
+title: QIAN CORPORATION
 ---
 [![](<images/Qian Corp Vitruvian.png>)](/)
 
